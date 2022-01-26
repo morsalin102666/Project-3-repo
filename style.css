@@ -19,7 +19,7 @@ h1 {
     font-size: 70px;
 }
 
-h4 {
+.un-common {
     font-size: 30px;
 }
 
@@ -53,4 +53,44 @@ a:hover {
 
 img {
     width: 100%;
+}
+
+.experiences-chapter {
+    display: flex;
+    padding: 70px;
+}
+
+.experiences-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#pagli {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, yellow);
+    border-image-slice: 1;
+}
+
+#pagol {
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, blue);
+    border-image-slice: 1;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.mor {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
 }
